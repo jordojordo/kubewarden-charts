@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: ingress
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/ingress:v0.1.11
   rules:
   - apiGroups: []

@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: verify-image-signatures
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/verify-image-signatures:v0.1.2
   rules:
   - apiGroups: []

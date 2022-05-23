@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: capabilities-psp
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/capabilities-psp:v0.1.9
   rules:
   - apiGroups: []

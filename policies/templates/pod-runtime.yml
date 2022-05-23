@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: pod-runtime
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/pod-runtime:v0.1.4
   rules:
   - apiGroups: []

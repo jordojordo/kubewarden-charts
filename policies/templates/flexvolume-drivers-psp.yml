@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: flexvolume-drivers-psp
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/flexvolume-drivers-psp:v0.1.2
   rules:
   - apiGroups: []

@@ -4,7 +4,6 @@ kind: ''
 metadata:
   name: pod-privileged-policy
 spec:
-  policyServer: default
   module: ghcr.io/kubewarden/policies/pod-privileged:v0.1.10
   rules:
   - apiGroups: []
