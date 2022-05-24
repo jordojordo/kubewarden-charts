@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default:
   description: This policy validates Sigstore signatures for containers, init container
     and ephemeral container that match the name provided in the image settings field.

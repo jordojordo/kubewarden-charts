@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default: []
   description: This policy works by defining a whitelist of allowed AppArmor profiles.
     Pods are then inspected at creation and update time, to ensure only approved profiles

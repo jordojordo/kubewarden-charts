@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default:
   description: Replacement for the Kubernetes Pod Security Policy that controls the
     usage of volumes in pods. The policy takes the list of the allowed volume types

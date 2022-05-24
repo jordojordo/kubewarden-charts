@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default:
   description: This policy validates which sysctls can get set in pods by specifying
     lists of sysctls or sysctl patterns to be allowed or forbidden. You can then modify

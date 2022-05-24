@@ -2,6 +2,10 @@
 categories:
 - security
 namespace: kubewarden
+questions:
+categories:
+- security
+namespace: kubewarden
 questions: 
 - default: true
   description: This policy works by defining what proc mount types are allowed in

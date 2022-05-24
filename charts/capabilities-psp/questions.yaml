@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default: []
   description: Provides a list of capabilities that are allowed to be added to a container
   tooltip: Specified as the capability name in ALL_CAPS. (e.g. `CHOWN`, `KILL`)

@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default: []
   description: This policy provides a list of allowed Flex Volume drivers. If the
     pod to be evaluated has a different driver on any `flexVolume` volume, it will

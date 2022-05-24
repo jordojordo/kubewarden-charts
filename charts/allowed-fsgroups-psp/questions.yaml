@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default: RunAsAny
   tooltip: Set which fsGroup is allowed in the pod security context.
   description: This policy works by defining what `fsGroup` is allowed in the pod

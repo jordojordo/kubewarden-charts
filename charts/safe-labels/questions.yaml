@@ -1,4 +1,8 @@
 ---
+categories:
+- security
+namespace: kubewarden
+questions:
 - default:
   description: This policy validates the labels of generic Kubernetes objects. It
     rejects all the resources that use one or more labels on the deny list. It also
