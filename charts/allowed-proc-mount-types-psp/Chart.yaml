@@ -1,0 +1,10 @@
+apiVersion: v2
+name: allowed-proc-mount-types-psp
+description: A Helm chart for deploying the allowed-proc-mount-types-psp
+icon: https://www.kubewarden.io/images/icon-kubewarden.svg
+type: application
+home: https://www.kubewarden.io/
+
+version: 0.1.0
+
+appVersion: "v0.1.0"

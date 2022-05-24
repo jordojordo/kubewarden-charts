@@ -1,0 +1,10 @@
+apiVersion: v2
+name: trusted-repos
+description: A Helm chart for deploying the trusted-repos
+icon: https://www.kubewarden.io/images/icon-kubewarden.svg
+type: application
+home: https://www.kubewarden.io/
+
+version: 0.1.0
+
+appVersion: "v0.1.0"
