@@ -5,6 +5,6 @@ icon: https://www.kubewarden.io/images/icon-kubewarden.svg
 type: application
 home: https://www.kubewarden.io/
 
-version: 0.1.111
+version: 0.1.11
 
-appVersion: "v0.1.111"
+appVersion: "v0.1.11"
