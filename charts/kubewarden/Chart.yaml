@@ -1,0 +1,32 @@
+annotations:
+  artifacthub.io/operator: "true"
+  catalog.cattle.io/auto-install: kubewarden-crds=match
+  catalog.cattle.io/certified: kubewarden
+  catalog.cattle.io/display-name: Kubewarden
+  catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.22.0-0'
+  catalog.cattle.io/namespace: kubewarden
+  catalog.cattle.io/rancher-version: '>= 2.6.0-0 < 2.7.0-0'
+  catalog.cattle.io/release-name: kubewarden
+  catalog.cattle.io/requests-cpu: 4500m
+  catalog.cattle.io/requests-memory: 4000Mi
+  catalog.cattle.io/type: cluster-tool
+  catalog.cattle.io/ui-component: kubewarden
+apiVersion: v2
+name: kubewarden
+description: A Helm chart for deploying the Kubewarden stack
+icon: https://www.kubewarden.io/images/icon-kubewarden.svg
+type: application
+home: https://www.kubewarden.io/
+maintainers:
+- name: Flavio Castelli
+  email: fcastelli@suse.com
+- name: Rafael Fernández López
+  email: rfernandezlopez@suse.com
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 1.0.0
+
+# This is the version of kubewarden-controller container image to be used
+appVersion: "v1.0.0"
