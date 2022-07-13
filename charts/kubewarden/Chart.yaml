@@ -1,5 +1,4 @@
 annotations:
-  artifacthub.io/operator: "true"
   catalog.cattle.io/auto-install: kubewarden-crds=match
   catalog.cattle.io/certified: kubewarden
   catalog.cattle.io/display-name: Kubewarden
@@ -26,7 +25,7 @@ maintainers:
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 1.0.0
+version: 1.0.2
 
 # This is the version of kubewarden-controller container image to be used
 appVersion: "v1.0.0"

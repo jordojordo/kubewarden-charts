@@ -9,7 +9,9 @@ telemetry:
     port: 8080
   tracing:
     jaeger:
-      {}
+      endpoint: ""
+      tls:
+        {}
       # Jaeger endpoint to send traces to
       # endpoint: "all-in-one-collector.jaeger.svc.cluster.local:14250"
 image:
